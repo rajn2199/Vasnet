@@ -8,6 +8,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from config import Config
 
+# Implemented scaled self-attention for temporal modeling
 
 class SelfAttention(nn.Module):
     """

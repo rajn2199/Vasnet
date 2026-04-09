@@ -222,6 +222,6 @@ def main():
         f.write(f"Mean F  : {mean_f:.2f}% ± {std_f:.2f}%\n")
         f.write(f"Target  : TVSum 61.4% / SumMe 49.7%\n")
 
-
+# Added AMP training for faster performance
 if __name__ == "__main__":
     main()
