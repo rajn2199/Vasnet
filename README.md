@@ -30,6 +30,12 @@ Install dependencies:
 pip install torch numpy h5py
 ```
 
+## 🧠 My Contributions
+- Implemented self-attention mechanism from scratch
+- Added AMP training for faster computation
+- Improved training pipeline and logging
+
+
 ## Dataset Setup
 
 This implementation uses pre-extracted GoogLeNet pool5 features in HDF5 format (ECCV16 standard).
